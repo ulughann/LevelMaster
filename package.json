@@ -1,0 +1,22 @@
+{
+  "name": "level-master",
+  "version": "1.0.0",
+  "description": "the level master discord bot",
+  "main": "index.js",
+  "author": "isCosmos",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "canvacord": "^5.4.8",
+    "command-sync": "^1.0.0",
+    "discord.js": "^14.5.1-dev.1665144424-9f68d73.0",
+    "fantastik": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3",
+    "path": "^0.12.7"
+  }
+}
